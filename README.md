@@ -1,3 +1,4 @@
+[![View Semantic segmentation using Pascal VOC  on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://jp.mathworks.com/matlabcentral/fileexchange/75938-semantic-segmentation-using-pascal-voc)
 # Semantic Segmentation Using Pascal-VOC dataset
 
 This example shows how to train a semantic segmentation network using deep learning. This example was a modified version of the Matlab official document entitled [Semantic Segmentation Using Deep Learning](https://jp.mathworks.com/help/vision/examples/semantic-segmentation-using-deep-learning.html) [1]. A semantic segmentation network classifies every pixel in an image, resulting in an image that is segmented by class as shown below. 
@@ -12,7 +13,7 @@ To illustrate the training procedure, this example trains Deeplab v3+ [2], one t
 
 [3]  [Visual Object Classes Challenge 2012 (VOC2012)](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html)
 
-# Load CamVid Pixel-Labeled Images
+# Load Pascal-VOC Pixel-Labeled Images
 
 Please run this code after down-loading the Pascal-VOC data from [2]. Unzip and change the directly as shown below. The down-loaded data can be unfrozen into the folders as shown below. The annotated labels were stored in the folder of SegmentationClass. The pixel values in the png images in the Segmentation Class folder corresponds to class ID. Each class ID represents each class. 
 

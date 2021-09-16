@@ -1,7 +1,9 @@
 [![View Semantic segmentation using Pascal VOC  on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://jp.mathworks.com/matlabcentral/fileexchange/75938-semantic-segmentation-using-pascal-voc)
 # Semantic Segmentation Using Pascal-VOC dataset
-
-This example shows how to train a semantic segmentation network using deep learning. This example was a modified version of the Matlab official document entitled [Semantic Segmentation Using Deep Learning](https://jp.mathworks.com/help/vision/examples/semantic-segmentation-using-deep-learning.html) [1]. A semantic segmentation network classifies every pixel in an image, resulting in an image that is segmented by class as shown below. 
+**[English]**  
+This example shows how to train a semantic segmentation network using deep learning. This example was a modified version of the Matlab official document entitled [Semantic Segmentation Using Deep Learning](https://jp.mathworks.com/help/vision/examples/semantic-segmentation-using-deep-learning.html) [1]. A semantic segmentation network classifies every pixel in an image, resulting in an image that is segmented by class as shown below.  
+**[Japanese]**  
+この例ではPascal VOCデータセットを用いてセマンティックセグメンテーションを行う例を示します。セマンティックセグメンテーションでは、画像の「塗り絵」のようなことを行い、その領域がどのような物体かを推定します。この例はMATLAB公式ドキュメント [1]をもとに作成しています。下の動画は今回のセグメンテーションの結果の例を示しています。
 
 ![image_0.png](README_images/image_0.png)
 
